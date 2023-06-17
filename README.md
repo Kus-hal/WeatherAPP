@@ -1,21 +1,20 @@
 # WeatherAPP
-( Android )Weather Application
-![image](https://github.com/Kus-hal/WeatherAPP/assets/88149584/b2197b57-6b01-491d-b38f-9948d98f7a91)
-![image](https://github.com/Kus-hal/WeatherAPP/assets/88149584/9817fee8-5183-461e-9959-bc4fc967f946)
-#Project Title: Weather App
+( Android ) Weather Application
 
 
-Summary:
+# Summary:
 The Weather App is an Android application that provides users with real-time weather information for any desired location. By leveraging the OpenWeatherMap API, this app offers a convenient and intuitive way to access accurate weather forecasts.
 
-Key Features:
+# Key Features:
 Current Weather: Users can search for a specific city and instantly view the current weather conditions, including temperature, humidity, wind speed, and atmospheric pressure.
 
-Detailed Forecast: The app provides a comprehensive daily forecast, allowing users to plan their activities accordingly. They can access detailed weather information for the entire day, including temperature changes, precipitation chances, and wind direction.
+## Detailed Forecast:
+The app provides a comprehensive daily forecast, allowing users to plan their activities accordingly. They can access detailed weather information for the entire day, including temperature changes, precipitation chances, and wind direction.
 
-Offline Support: In the absence of an internet connection, the Weather App intelligently stores previous search results, ensuring users can still access their weather history and forecasts offline.
+## Offline Support: 
+In the absence of an internet connection, the Weather App intelligently stores previous search results, ensuring users can still access their weather history and forecasts offline.
 
-How to Use:
+# How to Use:
 Launch the Weather App on your Android device.
 Enter the name of the desired city in the search bar.
 Tap the "Search" button to retrieve the current weather and forecast for that location.
@@ -31,3 +30,8 @@ Future Enhancements:
 Integration of additional weather APIs to improve forecast accuracy and provide more comprehensive weather data.
 Implementation of push notifications for weather alerts and updates.
 Incorporation of location-based services to automatically fetch the user's current location weather.
+
+
+![dayss](https://github.com/Kus-hal/WeatherAPP/assets/88149584/3dd997b0-7157-4ed9-8514-6c2b3570d387)
+
+![Night SS](https://github.com/Kus-hal/WeatherAPP/assets/88149584/fab938a6-822d-41cf-85a5-4f2e3f68629a)
