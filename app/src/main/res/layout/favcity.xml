@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="10dp"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_back">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:id="@+id/imgCardBG"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textCity"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="City"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTemperature"
+            android:gravity="center"
+            android:text="20"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_below="@+id/textCity"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imgCondition"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textTemperature"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="0dp"
+            android:padding="4dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_below="@id/imgCondition"
+            android:id="@+id/textCondition"
+            android:textColor="#000000"
+            android:text="condition"
+            android:padding="3dp"
+            android:textColorHint="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_below="@id/textCondition"
+            android:id="@+id/textWindSpeed"
+            android:textColor="#000000"
+            android:text="13"
+            android:padding="3dp"
+            android:textColorHint="@color/white"/>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
