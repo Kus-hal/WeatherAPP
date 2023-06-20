@@ -34,4 +34,6 @@ Incorporation of location-based services to automatically fetch the user's curre
 
 ![dayss](https://github.com/Kus-hal/WeatherAPP/assets/88149584/3dd997b0-7157-4ed9-8514-6c2b3570d387)
 
+
 ![Night SS](https://github.com/Kus-hal/WeatherAPP/assets/88149584/fab938a6-822d-41cf-85a5-4f2e3f68629a)
+[Screen Recording.webm](https://github.com/Kus-hal/WeatherAPP/assets/88149584/2bde91d7-6823-49d0-961b-e13e1abf246f)
